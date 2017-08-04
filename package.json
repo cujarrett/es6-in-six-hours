@@ -1,0 +1,26 @@
+{
+  "name": "es6-in-six-weeks",
+  "version": "0.1.0",
+  "description": "Learn ES6 in Six One Hour Sessions.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "ci": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-jarrett/es6-in-six-weeks.git"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "Matt Jarrett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matt-jarrett/es6-in-six-weeks/issues"
+  },
+  "homepage": "https://github.com/matt-jarrett/es6-in-six-weeks#readme",
+  "devDependencies": {
+    "eslint": "~4.3.0"
+  }
+}
