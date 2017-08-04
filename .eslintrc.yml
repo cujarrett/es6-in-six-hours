@@ -1,0 +1,193 @@
+env:
+  node: true
+  es6: true
+  browser: true
+extends: 'eslint:recommended'
+parserOptions:
+  ecmaVersion: 6
+  sourceType: module
+  ecmaFeatures:
+    jsx: true
+    modules: true
+rules:
+  strict:
+    - error
+    - never
+  array-callback-return:
+    - error
+  array-bracket-spacing:
+    - error
+    - never
+    - {}
+  arrow-parens:
+    - error
+    - always
+  arrow-spacing:
+    - error
+    -
+      before: true
+      after: true
+  brace-style:
+    - error
+    - 1tbs
+    -
+      allowSingleLine: true
+  camelcase:
+    - error
+    -
+      properties: always
+  comma-dangle:
+    - error
+    - never
+  comma-spacing:
+  - error
+  -
+    before: false
+    after: true
+  comma-style:
+    - error
+    - last
+  dot-notation:
+    - error
+  eol-last:
+    - error
+  eqeqeq:
+    - error
+  generator-star-spacing:
+    - error
+    - after
+  indent:
+    - error
+    - 2
+  keyword-spacing:
+    - error
+    -
+      before: true
+      after: true
+  key-spacing:
+  - 2
+  -
+    beforeColon: false
+    afterColon: true
+  max-len:
+    - error
+    - {}
+  new-cap:
+    - error
+    -
+      newIsCap: true
+      capIsNew: true
+  newline-per-chained-call:
+    - error
+  no-array-constructor:
+    - error
+  no-case-declarations:
+    - error
+  no-confusing-arrow:
+    - error
+  no-const-assign:
+    - error
+  no-dupe-class-members:
+    - error
+  no-iterator:
+    - error
+  no-loop-func:
+    - error
+  no-multiple-empty-lines:
+  - 2
+  -
+    max: 1
+    maxEOF: 1
+  no-multi-spaces:
+    - error
+  no-nested-ternary:
+    - error
+  no-new-func:
+    - error
+  no-new-object:
+    - error
+  no-param-reassign:
+    - error
+  no-plusplus:
+    - error
+  no-undef:
+    - error
+  no-underscore-dangle:
+    - error
+  no-unneeded-ternary:
+    - error
+  no-useless-constructor:
+    - error
+  no-useless-escape:
+    - error
+  object-curly-spacing:
+    - error
+    - always
+  one-var:
+    - error
+    - never
+  no-whitespace-before-property:
+    - error
+  padded-blocks:
+    - error
+    - never
+  prefer-arrow-callback:
+    - error
+  prefer-rest-params:
+    - error
+  prefer-spread:
+    - error
+  prefer-template:
+    - error
+  quote-props:
+    - error
+    - as-needed
+  quotes:
+    - error
+    - double
+  radix:
+    - error
+  semi:
+    - error
+    - never
+  space-before-blocks:
+    - error
+    - always
+  space-before-function-paren:
+    - error
+    - never
+  space-in-parens:
+    - error
+    - never
+  space-infix-ops:
+    - error
+  space-unary-ops:
+    - error
+    -
+      words: true
+      nonwords: false
+  template-curly-spacing:
+    - error
+    - never
+  wrap-iife:
+    - error
+    - outside
+
+  no-console:
+    - off
+  func-style:
+    - off
+  no-var:
+    - off
+  id-length:
+    - off
+  no-constant-condition:
+    - off
+  no-redeclare:
+    - off
+  no-unused-vars:
+    - off
+  prefer-const:
+    - off
+  spaced-comment:
+    - off
