@@ -6,6 +6,8 @@
 
 ES6 also know as ECMAScript 6 or ECMAScript 2015 is a fun and interesting addition to JavaScript. There's lots of ways to learn the content, here's my take on the topics. It's meant to have a low barrier of entry and to be consumed in six one hour sessions.
 
+Also, ES6 in Seven Weeks isn't as catchy :smile:
+
 #### ES6 Topics Covered
 - [Let](./src/01-a-let.js) and [Const](./src/01-b-const.js)
 - [Arrow Functions and Lexical This](./src/02-arrow-functions-and-lexical-this.js)
