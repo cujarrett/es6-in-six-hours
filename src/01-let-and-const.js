@@ -1,6 +1,8 @@
 // let is another way to declare variables.
 // let is block scoped.
 
+// More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+
 function varTest() {
   var x = 1
   if (true) {
