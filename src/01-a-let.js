@@ -22,5 +22,5 @@ function letTest() {
 }
 
 // Uncomment these one at a time to demo
-//varTest()
-letTest()
+varTest()
+//letTest()
