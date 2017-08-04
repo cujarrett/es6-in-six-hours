@@ -8,7 +8,7 @@ ES6 also know as ECMAScript 6 or ECMAScript 2015 is a fun and interesting additi
 
 #### ES6 Topics Covered
 - [Let](./src/01-a-let.js) and [Const](./src/01-b-const.js)
-- Arrows and Lexical This
+- [Arrow Functions and Lexical This](./src/02-arrow-functions-and-lexical-this.js)
 - Template Literals
 - Destructuring
 - Default + Rest + Spread
