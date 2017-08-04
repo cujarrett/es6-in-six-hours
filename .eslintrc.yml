@@ -69,9 +69,6 @@ rules:
   -
     beforeColon: false
     afterColon: true
-  max-len:
-    - error
-    - {}
   new-cap:
     - error
     -
@@ -84,8 +81,6 @@ rules:
   no-case-declarations:
     - error
   no-confusing-arrow:
-    - error
-  no-const-assign:
     - error
   no-dupe-class-members:
     - error
@@ -109,8 +104,6 @@ rules:
   no-param-reassign:
     - error
   no-plusplus:
-    - error
-  no-undef:
     - error
   no-underscore-dangle:
     - error
@@ -136,8 +129,6 @@ rules:
   prefer-rest-params:
     - error
   prefer-spread:
-    - error
-  prefer-template:
     - error
   quote-props:
     - error
@@ -173,6 +164,7 @@ rules:
     - error
     - outside
 
+# Project specific overrides
   no-console:
     - off
   func-style:
@@ -190,4 +182,12 @@ rules:
   prefer-const:
     - off
   spaced-comment:
+    - off
+  max-len:
+    - off
+  prefer-template:
+    - off
+  no-const-assign:
+    - off
+  no-undef:
     - off
