@@ -19,9 +19,6 @@ rules:
     - error
     - never
     - {}
-  arrow-parens:
-    - error
-    - always
   arrow-spacing:
     - error
     -
@@ -124,8 +121,6 @@ rules:
   padded-blocks:
     - error
     - never
-  prefer-arrow-callback:
-    - error
   prefer-rest-params:
     - error
   prefer-spread:
@@ -190,4 +185,8 @@ rules:
   no-const-assign:
     - off
   no-undef:
+    - off
+  arrow-parens:
+    - off
+  prefer-arrow-callback:
     - off
