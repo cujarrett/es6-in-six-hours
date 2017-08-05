@@ -12,7 +12,7 @@ Also, ES6 in Seven Weeks isn't as catchy :smile:
 - [Let](./src/01-a-let.js) and [Const](./src/01-b-const.js)
 - [Arrow Functions and Lexical This](./src/02-arrow-functions-and-lexical-this.js)
 - [Template Literals](./src/03-template-literals.js)
-- Destructuring
+- [Destructuring](./src/04-destructuring.js)
 - Default + Rest + Spread
 - Iterators + For..Of
 - Generators
