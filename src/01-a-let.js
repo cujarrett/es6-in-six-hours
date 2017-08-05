@@ -21,6 +21,5 @@ function letTest() {
   console.log("letTest: x = " + x) // 1
 }
 
-// Uncomment these one at a time to demo
 varTest()
 letTest()
