@@ -41,20 +41,19 @@ function Boy() {
   that.age = 0
 
   setInterval(function growUp() {
-    // The callback refers to the `that` variable of which
-    // the value is the expected object.
+    // The callback refers to the `that` variable of which the value is the expected object
     that.age += 1
   }, 1000)
 }
 
 const boy = new Boy()
 
-// We can do better. We can avoid the this = that headache
+// We can do better, we can avoid the this = that headache
 function Girl() {
   this.age = 0
 
   setInterval(() => {
-    this.age += 1 // `this` properly refers to the person object
+    this.age += 1 // `this` properly refers to the Girl object
   }, 1000)
 }
 
