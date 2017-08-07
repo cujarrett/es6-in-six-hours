@@ -33,7 +33,7 @@ If you're on a Mac, I'd suggest using
 required software listed in Setup.
 ```
 git clone https://github.com/matt-jarrett/es6-in-six-hours.git
-cd es6-in-six-weeks
+cd es6-in-six-hours
 npm install
 ```
 
