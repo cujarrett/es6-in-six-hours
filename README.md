@@ -1,4 +1,4 @@
-# ES6 in Six Weeks
+# ES6 in Six Hours
 
 ![logo](./media/logo.png)
 
