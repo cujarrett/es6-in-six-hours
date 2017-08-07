@@ -23,8 +23,8 @@ Knowledge of JavaScript (ES5)
 
 #### Setup
 Setup and use requires uses
-[Git](https://git-scm.com/)
-[Node JS](https://nodejs.org/en/)
+[Git](https://git-scm.com/),
+[Node JS](https://nodejs.org/en/),
 and a text editor such as
 [Brackets](http://brackets.io/)
 
