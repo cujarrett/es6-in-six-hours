@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "ci": "npm run lint"
+    "lint-and-fix": "eslint . --fix",
+    "test": "node test/index.js | node_modules/.bin/tap-spec",
+    "ci": "npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,8 @@
   },
   "homepage": "https://github.com/matt-jarrett/es6-in-six-weeks#readme",
   "devDependencies": {
-    "eslint": "~4.3.0"
+    "eslint": "~4.3.0",
+    "tap-spec": "~4.1.1",
+    "tape": "~4.8.0"
   }
 }
