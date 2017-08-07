@@ -1,6 +1,6 @@
 // ES6 Rest parameter syntax allows us to represent an indefinite number of arguments as an array.
 
-// More Reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
+// More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
 
 // Example 1
 const printNumberOfArguments = (...args) => {
