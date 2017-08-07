@@ -37,6 +37,28 @@ cd es6-in-six-weeks
 npm install
 ```
 
+#### Running Development Linting and Tests
+**Run Linting**
+```
+npm run lint
+```
+
+**Run linting and fix errors**
+```
+npm run lint-and-fix
+```
+
+**Run Tests**
+```
+npm run test
+```
+
+**Run Continuous Integration**
+Runs linting and tests
+```
+npm run ci
+```
+
 #### Continued Reading
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
 - [Eric Elliott's How to Learn ES6](https://medium.com/javascript-scene/how-to-learn-es6-47d9a1ac2620)
