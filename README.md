@@ -1,5 +1,7 @@
 # ES6 in Six Weeks
 
+![logo](./media/logo.png)
+
 #### What
 
 > **If you haven’t learned ES6 yet, the time is now. - Eric Elliott**
