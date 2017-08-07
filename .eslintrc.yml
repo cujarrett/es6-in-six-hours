@@ -100,8 +100,6 @@ rules:
     - error
   no-param-reassign:
     - error
-  no-plusplus:
-    - error
   no-underscore-dangle:
     - error
   no-unneeded-ternary:
@@ -189,4 +187,6 @@ rules:
   arrow-parens:
     - off
   prefer-arrow-callback:
+    - off
+  no-plusplus:
     - off
