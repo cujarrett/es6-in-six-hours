@@ -13,7 +13,7 @@ Also, ES6 in Seven Weeks isn't as catchy :smile:
 - [Arrow Functions and Lexical This](./src/02-arrow-functions-and-lexical-this.js)
 - [Template Literals](./src/03-template-literals.js)
 - [Destructuring](./src/04-destructuring.js)
-- [Default](./src/05-a-default.js) + [Rest](./src/05-b-rest.js) + Spread
+- [Default](./src/05-a-default.js) + [Rest](./src/05-b-rest.js) + [Spread](./src/05-c-spread.js)
 - Iterators + For..Of
 - Generators
 - Promises
