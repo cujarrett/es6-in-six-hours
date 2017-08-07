@@ -49,8 +49,13 @@ const people = [
 
 // Without destructuring
 people.forEach((person) => console.log(person.firstName))
+// Sarah
+// Frank
+
 // With destructuring
 people.forEach(({ firstName }) => console.log(firstName))
+// Sarah
+// Frank
 
 // Example 5
 const [, frank] = people
