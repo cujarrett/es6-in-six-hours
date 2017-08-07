@@ -32,7 +32,7 @@ If you're on a Mac, I'd suggest using
 [Homebrew](https://brew.sh/) for installing the
 required software listed in Setup.
 ```
-git clone https://github.com/matt-jarrett/es6-in-six-weeks.git
+git clone https://github.com/matt-jarrett/es6-in-six-hours.git
 cd es6-in-six-weeks
 npm install
 ```
