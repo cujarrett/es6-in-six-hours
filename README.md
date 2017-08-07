@@ -19,14 +19,14 @@ ES6 also know as ECMAScript 6 or ECMAScript 2015 is a fun and interesting additi
 - [Promises](./src/08-promises.js)
 
 #### Prerequisite
-Knowledge of JavaScript (ES5)
+Knowledge of JavaScript (ES5) is recommended.
 
 #### Setup
-Setup and use requires uses
+Setup and use requires
 [Git](https://git-scm.com/),
 [Node JS](https://nodejs.org/en/),
 and a text editor such as
-[Brackets](http://brackets.io/)
+[Brackets](http://brackets.io/).
 
 If you're on a Mac, I'd suggest using
 [Homebrew](https://brew.sh/) for installing the
