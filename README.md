@@ -54,6 +54,7 @@ npm run test
 ```
 
 **Run Continuous Integration**
+
 Runs linting and tests
 ```
 npm run ci
