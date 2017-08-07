@@ -15,7 +15,7 @@ Also, ES6 in Seven Weeks isn't as catchy :smile:
 - [Destructuring](./src/04-destructuring.js)
 - [Default](./src/05-a-default.js) + [Rest](./src/05-b-rest.js) + [Spread](./src/05-c-spread.js)
 - [Iterators](./src/06-a-iterators.js) + [For..Of](./src/06-b-for-of.js)
-- Generators
+- [Generators](./src/07-generators.js)
 - Promises
 
 #### Prerequisite
