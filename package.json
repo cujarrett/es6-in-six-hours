@@ -1,5 +1,5 @@
 {
-  "name": "es6-in-six-weeks",
+  "name": "es6-in-six-hours",
   "version": "0.1.0",
   "description": "Learn ES6 in Six One Hour Sessions.",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matt-jarrett/es6-in-six-weeks.git"
+    "url": "git+https://github.com/matt-jarrett/es6-in-six-hours.git"
   },
   "keywords": [
     "es6"
@@ -19,9 +19,9 @@
   "author": "Matt Jarrett",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matt-jarrett/es6-in-six-weeks/issues"
+    "url": "https://github.com/matt-jarrett/es6-in-six-hours/issues"
   },
-  "homepage": "https://github.com/matt-jarrett/es6-in-six-weeks#readme",
+  "homepage": "https://github.com/matt-jarrett/es6-in-six-hours#readme",
   "devDependencies": {
     "eslint": "~4.3.0",
     "tap-spec": "~4.1.1",
