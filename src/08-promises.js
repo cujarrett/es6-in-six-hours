@@ -49,4 +49,3 @@ apiPromise
   .catch((rejectMessage) => console.log(rejectMessage))
 // A New Hope
 // I CAN CONTINUE TO PASS THINGS TO THE NEXT .THEN()
-// I CAN CONTINUE TO PASS THINGS TO THE NEXT .THEN()
