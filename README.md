@@ -2,7 +2,7 @@
 
 ![logo](./media/es6-in-six-hours-logo.png)
 
-#### What
+#### What & Why
 
 > **If you haven’t learned ES6 yet, the time is now. - Eric Elliott**
 
