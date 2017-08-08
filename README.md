@@ -4,7 +4,7 @@
 
 #### What & Why
 
-> **If you haven’t learned ES6 yet, the time is now. - Eric Elliott**
+> **If you haven’t learned ES6 yet, the time is now. - [Eric Elliott](https://twitter.com/_ericelliott)**
 
 ES6 also know as ECMAScript 6 or ECMAScript 2015 is a fun and interesting addition to JavaScript. There's lots of ways to learn the content, here's my take on the topics. It's meant to have a low barrier of entry and to be consumed in six one hour sessions.
 
