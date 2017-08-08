@@ -1,6 +1,6 @@
 # ES6 in Six Hours
 
-![logo](./media/logo.png)
+![logo](./media/es6-in-six-hours-logo.png)
 
 #### What
 
