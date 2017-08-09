@@ -2,6 +2,8 @@
 
 ![logo](./media/es6-in-six-hours-logo.png)
 
+[![Build Status](https://travis-ci.org/matt-jarrett/es6-in-six-hours.svg?branch=master)](https://travis-ci.org/matt-jarrett/es6-in-six-hours)
+
 #### What & Why
 
 > **If you haven’t learned ES6 yet, the time is now. - [Eric Elliott](https://twitter.com/_ericelliott)**
