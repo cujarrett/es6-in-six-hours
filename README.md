@@ -4,13 +4,13 @@
 
 [![Build Status](https://travis-ci.org/matt-jarrett/es6-in-six-hours.svg?branch=master)](https://travis-ci.org/matt-jarrett/es6-in-six-hours)
 
-#### What & Why
+## What & Why
 
 > **If you haven’t learned ES6 yet, the time is now. - [Eric Elliott](https://twitter.com/_ericelliott)**
 
 ES6 also know as ECMAScript 6 or ECMAScript 2015 is a fun and interesting addition to JavaScript. There's lots of ways to learn the content, here's my take on the topics. It's meant to have a low barrier of entry and to be consumed in six one hour sessions.
 
-#### ES6 Topics Covered
+## ES6 Topics Covered
 - [Let](./src/01-a-let.js) and [Const](./src/01-b-const.js)
 - [Arrow Functions and Lexical This](./src/02-arrow-functions-and-lexical-this.js)
 - [Template Literals](./src/03-template-literals.js)
@@ -20,10 +20,10 @@ ES6 also know as ECMAScript 6 or ECMAScript 2015 is a fun and interesting additi
 - [Generators](./src/07-generators.js)
 - [Promises](./src/08-promises.js)
 
-#### Prerequisite
+## Prerequisite
 Knowledge of JavaScript (ES5) is recommended.
 
-#### Setup
+## Setup
 Setup and use requires
 [Git](https://git-scm.com/),
 [Node JS](https://nodejs.org/en/),
@@ -39,7 +39,7 @@ cd es6-in-six-hours
 npm install
 ```
 
-#### Running Development Linting and Tests
+## Running Development Linting and Tests
 **Run Linting**
 ```
 npm run lint
@@ -62,6 +62,6 @@ Runs linting and tests
 npm run ci
 ```
 
-#### Continued Reading
+## Continued Reading
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
 - [Eric Elliott's How to Learn ES6](https://medium.com/javascript-scene/how-to-learn-es6-47d9a1ac2620)
