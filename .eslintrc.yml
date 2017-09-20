@@ -190,3 +190,5 @@ rules:
     - off
   no-plusplus:
     - off
+  no-trailing-spaces:
+    - error
