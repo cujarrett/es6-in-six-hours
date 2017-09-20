@@ -60,13 +60,13 @@ const makeStarWarsApiCall = (resolve, reject) => {
   return new Promise((resolve, reject) => {
     http.get("http://swapi.co/api/films/")
       .on("response", (response) => {
-        var body = ""
+        const body = ""
         response
           .on("data", (chunk) => {
             body += chunk
           })
           .on("end", () => {
-            var data = JSON.parse(body)
+            const data = JSON.parse(body)
             resolve(data.results[0].title)
           })
       })
