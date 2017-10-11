@@ -1,20 +1,16 @@
-const http = require("http")
+const fetch = require("node-fetch")
 const tape = require("tape")
 
 const makeStarWarsApiCall = () => {
   return new Promise((resolve, reject) => {
-    http.get("http://swapi.co/api/films/")
-      .on("response", (response) => {
-        let body = ""
-        response
-          .on("data", (chunk) => {
-            body += chunk
-          })
-          .on("end", () => {
-            const data = JSON.parse(body)
-            resolve(data.results[0].title)
-          })
+    const url = "http://swapi.co/api/films/"
+    fetch(url)
+      .then((response) => response.json())
+      .then((json) => {
+        const firstFilmTitle = json.results[0].title
+        resolve(firstFilmTitle)
       })
+      .catch((error) => reject(error))
   })
 }
 
