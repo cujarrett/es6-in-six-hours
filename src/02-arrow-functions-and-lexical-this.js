@@ -58,7 +58,7 @@ function Boy() {
   }, 1000)
 }
 
-//const boy = new Boy()
+// const boy = new Boy()
 // ...
 
 // We can do better, we can avoid the this = that headache
@@ -70,5 +70,5 @@ function Girl() {
   }, 1000)
 }
 
-//const girl = new Girl()
+// const girl = new Girl()
 // ...
