@@ -1,5 +1,7 @@
 // Arrow functions are another way to write functions.
-// Arrow functions are shorter to write and add non binding of `this`. Meaning, an arrow function does not create its own this, the this value of the enclosing execution context is used.
+// Arrow functions are shorter to write and add non binding of `this`.
+// Meaning, an arrow function does not create its own this, the this value of
+// the enclosing execution context is used.
 
 // More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
@@ -7,20 +9,26 @@
 const printSomething = function(thingToPrint) {
   console.log(thingToPrint)
 }
+printSomething("Purple") // Purple
+
 // Now an ES6 Arrow function equivalent
 const printAThing = (thingToPrint) => {
   console.log(thingToPrint)
 }
+printAThing("Orange") // Orange
 
 // Example 2 - Arrow functions that take two parameters
 const addTwoNumbers = (firstNumber, secondNumber) => {
   return firstNumber + secondNumber
 }
+const sum = addTwoNumbers(10, 44)
+console.log(sum) // 54
 
 // Example 3 - Arrow fuctions that take no parameters
 const printBlue = () => {
   console.log("Blue")
 }
+printBlue() // Blue
 
 // Some Weird Details Next
 
@@ -29,15 +37,19 @@ const printBlue = () => {
 const printTheThing = thingToPrint => {
   console.log(thingToPrint)
 }
+printTheThing("Teal") // Teal
 
 // Example 5
 // When you are only returning a value you can skip the brackets
 const add10 = (inputNumber) => inputNumber + 10
 
+const numberPlusTen = add10(22)
+console.log(numberPlusTen) // 32
+
 // Example 6 Lexical `this`
 // Previous to ES6 Arrow Functions, you had to do something like this
 function Boy() {
-  var that = this
+  const that = this
   that.age = 0
 
   setInterval(function growUp() {
@@ -46,7 +58,8 @@ function Boy() {
   }, 1000)
 }
 
-const boy = new Boy()
+// const boy = new Boy()
+// ...
 
 // We can do better, we can avoid the this = that headache
 function Girl() {
@@ -57,4 +70,5 @@ function Girl() {
   }, 1000)
 }
 
-const girl = new Girl()
+// const girl = new Girl()
+// ...

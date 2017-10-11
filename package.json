@@ -1,6 +1,6 @@
 {
   "name": "es6-in-six-hours",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Learn ES6 in Six One Hour Sessions.",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,8 @@
     "eslint": "~4.3.0",
     "tap-spec": "~4.1.1",
     "tape": "~4.8.0"
+  },
+  "dependencies": {
+    "node-fetch": "~1.7.3"
   }
 }
