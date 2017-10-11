@@ -62,7 +62,7 @@ rules:
       before: true
       after: true
   key-spacing:
-  - 2
+  - error
   -
     beforeColon: false
     afterColon: true
@@ -86,7 +86,7 @@ rules:
   no-loop-func:
     - error
   no-multiple-empty-lines:
-  - 2
+  - error
   -
     max: 1
     maxEOF: 1
@@ -99,6 +99,8 @@ rules:
   no-new-object:
     - error
   no-param-reassign:
+    - error
+  no-undef:
     - error
   no-underscore-dangle:
     - error
@@ -139,7 +141,10 @@ rules:
     - always
   space-before-function-paren:
     - error
-    - never
+    -
+      named: never
+      anonymous: never
+      asyncArrow: always
   space-in-parens:
     - error
     - never
@@ -150,15 +155,23 @@ rules:
     -
       words: true
       nonwords: false
+  spaced-comment:
+    - error
+    - always
+    - {}
   template-curly-spacing:
     - error
     - never
   wrap-iife:
     - error
     - outside
+  no-trailing-spaces:
+    - error
 
 # Project specific overrides
   no-console:
+    - off
+  max-len:
     - off
   func-style:
     - off
@@ -170,25 +183,15 @@ rules:
     - off
   no-redeclare:
     - off
-  no-unused-vars:
-    - off
-  prefer-const:
-    - off
-  spaced-comment:
-    - off
-  max-len:
-    - off
   prefer-template:
     - off
-  no-const-assign:
-    - off
-  no-undef:
+  prefer-const:
     - off
   arrow-parens:
     - off
   prefer-arrow-callback:
     - off
-  no-plusplus:
+  no-unused-vars:
     - off
-  no-trailing-spaces:
-    - error
+  no-const-assign:
+    - off
