@@ -1,4 +1,4 @@
-const http = require("http")
+const fetch = require("node-fetch")
 
 // ES6 Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
 
@@ -23,7 +23,7 @@ const printAColor = (color) => {
   console.log(color)
 }
 
-let myFirstPromise = new Promise((resolve, reject) => {
+const myFirstPromise = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve("Success!")
   }, 3000)
@@ -39,7 +39,7 @@ myFirstPromise
 // Purple
 
 // Example 3 - Shows Promise branching
-let mySecondPromise = new Promise((resolve, reject) => {
+const mySecondPromise = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve("Success!")
   }, 3000)
@@ -56,20 +56,16 @@ mySecondPromise
 // SUCCESS
 
 // Example 4 - Web service real example
-const makeStarWarsApiCall = (resolve, reject) => {
+const makeStarWarsApiCall = () => {
   return new Promise((resolve, reject) => {
-    http.get("http://swapi.co/api/films/")
-      .on("response", (response) => {
-        const body = ""
-        response
-          .on("data", (chunk) => {
-            body += chunk
-          })
-          .on("end", () => {
-            const data = JSON.parse(body)
-            resolve(data.results[0].title)
-          })
+    const url = "http://swapi.co/api/films/"
+    fetch(url)
+      .then((response) => response.json())
+      .then((json) => {
+        const firstFilmTitle = json.results[0].title
+        resolve(firstFilmTitle)
       })
+      .catch((error) => reject(error))
   })
 }
 
