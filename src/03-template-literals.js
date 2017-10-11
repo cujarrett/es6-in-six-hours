@@ -1,4 +1,5 @@
-// ES6 Template Literals are a cleaner way to inject variables or other awesomeness in Strings.
+// ES6 Template Literals are a cleaner way to inject variables or other
+// awesomeness in Strings.
 
 // More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 

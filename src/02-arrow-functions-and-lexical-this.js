@@ -1,5 +1,7 @@
 // Arrow functions are another way to write functions.
-// Arrow functions are shorter to write and add non binding of `this`. Meaning, an arrow function does not create its own this, the this value of the enclosing execution context is used.
+// Arrow functions are shorter to write and add non binding of `this`.
+// Meaning, an arrow function does not create its own this, the this value of
+// the enclosing execution context is used.
 
 // More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
