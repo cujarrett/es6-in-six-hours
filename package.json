@@ -1,6 +1,6 @@
 {
   "name": "es6-in-six-hours",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Learn ES6 in Six One Hour Sessions.",
   "main": "index.js",
   "scripts": {
