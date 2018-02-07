@@ -1,8 +1,8 @@
+[![Build Status](https://travis-ci.org/matt-jarrett/es6-in-six-hours.svg?branch=master)](https://travis-ci.org/matt-jarrett/es6-in-six-hours)
+
 # ES6 in Six Hours
 
 ![logo](./media/es6-in-six-hours-logo.png)
-
-[![Build Status](https://travis-ci.org/matt-jarrett/es6-in-six-hours.svg?branch=master)](https://travis-ci.org/matt-jarrett/es6-in-six-hours)
 
 ## What & Why
 
