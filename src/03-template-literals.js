@@ -3,16 +3,16 @@
 
 // More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 
-// Example 1
+// Example 1 - Simple
 const favoriteLanguage = "JavaScript"
 
 const phrase = `I love ${favoriteLanguage}`
 console.log(phrase) // I love JavaScript
 
-// Example 2
+// Example 2 - Using expressions
 console.log(`I can do expressions inside too: ${14 + 2}`) // I can do expressions inside too: 16
 
-// Example 3
+// Example 3 - Calling functions
 const halfANumber = (numberToHalf) => numberToHalf / 2
 
 const printNumberFacts = (number) => {
@@ -20,3 +20,10 @@ const printNumberFacts = (number) => {
 }
 
 printNumberFacts(10) // Half of 10 is 5
+
+// Example 4 - Multiline use
+const multiLineExample = `I can do multiline Strings if needed
+without slash n headaches`
+console.log(multiLineExample)
+// I can do multiline Strings if needed
+// without slash n headaches
