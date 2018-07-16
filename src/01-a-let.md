@@ -1,7 +1,12 @@
-// let is another way to declare variables. let is block scoped.
+# let
 
-// More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+#### Background
+`let` is another way to declare variables. `let` is block scoped. More reading:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
 
+[![example-link](./media/youtube-example-image.png)](https://youtu.be/zl8ZZZ0z1Ho)
+
+```js
 function varTest() {
   var x = 1
   if (true) {
@@ -22,3 +27,4 @@ function letTest() {
 
 varTest()
 letTest()
+```
