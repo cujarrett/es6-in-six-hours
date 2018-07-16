@@ -1,7 +1,12 @@
-// ES6 Generators are functions which can be exited and later re-entered. Their context (variable bindings) will be saved across re-entrances.
+# Generators
 
-// More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
+### Background
+Generators are functions which can be exited and later re-entered. Their context (variable
+bindings) will be saved across re-entrances. More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
 
+[![example-link](../media/youtube-example-image.png)](https://youtu.be/VBxM08YnzHQ)
+
+```js
 // Example 1
 const simpleGenerator = function* () {
   console.log("Generators return an iterator")
@@ -67,3 +72,4 @@ const graphGenerator = graph()
 console.log(graphGenerator.next().value) // { x: 0, y: 0 }
 console.log(graphGenerator.next().value) // { x: 2, y: 1 }
 console.log(graphGenerator.next().value) // { x: 4, y: 2 }
+```

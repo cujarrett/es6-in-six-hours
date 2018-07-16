@@ -1,7 +1,12 @@
-// ES6 Default allows you set default values for function parameters.
+# Default Parameters
 
-// More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
+### Background
+Default Parameters allows you set default values for function parameters. More reading:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
 
+[![example-link](../media/youtube-example-image.png)](https://youtu.be/zl8ZZZ0z1Ho)
+
+```js
 // Example 1
 const multiply = (a, b = 10) => {
   console.log(a * b)
@@ -30,3 +35,4 @@ const printRabbit = () => {
 
 recieve() // default
 recieve(printRabbit) // rabbit
+```

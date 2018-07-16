@@ -1,8 +1,12 @@
-// ES6 Template Literals are a cleaner way to inject variables or other
-// awesomeness in Strings.
+# Template Literals
 
-// More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+### Background
+Template Literals are a cleaner way to inject variables or other awesomeness in Strings. More
+reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 
+[![example-link](../media/youtube-example-image.png)](https://youtu.be/sz-BcKGCYxQ)
+
+```js
 // Example 1 - Simple
 const favoriteLanguage = "JavaScript"
 
@@ -27,3 +31,4 @@ without slash n headaches`
 console.log(multiLineExample)
 // I can do multiline Strings if needed
 // without slash n headaches
+```

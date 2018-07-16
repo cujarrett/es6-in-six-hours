@@ -1,8 +1,13 @@
+# Promise
+
+### Background
+Promise object represents the eventual completion (or failure) of an asynchronous operation, and
+its resulting value. More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+[![example-link](../media/youtube-example-image.png)](https://youtu.be/wfhfg7ALXA4)
+
+```js
 const fetch = require("node-fetch")
-
-// ES6 Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
-
-// More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
 // Example 1 - Shows why Promises are needed
 const printColor = (color) => {
@@ -84,3 +89,4 @@ apiPromise
   .catch((rejectMessage) => console.log(rejectMessage))
 // A New Hope
 // I CAN CONTINUE TO PASS THINGS TO THE NEXT .THEN()
+```

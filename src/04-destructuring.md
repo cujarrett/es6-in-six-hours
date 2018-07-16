@@ -1,7 +1,12 @@
-// ES6 Destructuring makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+# Destructuring
 
-// More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+### Background
+Destructuring makes it possible to unpack values from arrays,or properties from objects, into
+distinct variables. More reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 
+[![example-link](../media/youtube-example-image.png)](https://youtu.be/E-l3Rw8lr6E)
+
+```js
 // Example 1
 const { color, position } = {
   color: "blue",
@@ -65,3 +70,4 @@ const logEmail = ({ email }) => {
 }
 
 logEmail(frank) // frank@apple.com
+```
