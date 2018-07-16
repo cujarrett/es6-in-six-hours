@@ -4,7 +4,7 @@
 Default Parameters allows you set default values for function parameters. More reading:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
 
-[![example-link](../media/youtube-example-image.png)](https://youtu.be/zl8ZZZ0z1Ho)
+[![example-link](../media/youtube-example-image.png)](https://youtu.be/KEd1yQ82Wh8)
 
 ```js
 // Example 1
