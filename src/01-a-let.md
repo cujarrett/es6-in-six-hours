@@ -4,7 +4,7 @@
 `let` is another way to declare variables. `let` is block scoped. More reading:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
 
-![Video](https://youtu.be/zl8ZZZ0z1Ho)
+[![example-link](./media/youtube-example-image.png)](https://youtu.be/zl8ZZZ0z1Ho)
 
 ```js
 function varTest() {
