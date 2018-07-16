@@ -33,7 +33,7 @@ If you're on a Mac, I'd suggest using
 required software listed in Setup.
 
 ## Video Tutorials
-[![example-link](../media/youtube-example-image.png)](https://www.youtube.com/playlist?list=PLZg5AygvaHUMf22NDdtgo_4ZG3ssOCrGo)
+[![example-link](./media/youtube-example-image.png)](https://www.youtube.com/playlist?list=PLZg5AygvaHUMf22NDdtgo_4ZG3ssOCrGo)
 
 ## Continued Reading
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
