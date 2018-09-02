@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matt-jarrett/es6-in-six-hours.git"
+    "url": "git+https://github.com/cujarrett/es6-in-six-hours.git"
   },
   "keywords": [
     "es6"
@@ -19,9 +19,9 @@
   "author": "Matt Jarrett",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matt-jarrett/es6-in-six-hours/issues"
+    "url": "https://github.com/cujarrett/es6-in-six-hours/issues"
   },
-  "homepage": "https://github.com/matt-jarrett/es6-in-six-hours#readme",
+  "homepage": "https://github.com/cujarrett/es6-in-six-hours#readme",
   "devDependencies": {
     "eslint": "~5.1.0",
     "tap-spec": "~5.0.0",
