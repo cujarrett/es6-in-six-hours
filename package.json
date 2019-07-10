@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/cujarrett/es6-in-six-hours#readme",
   "devDependencies": {
-    "eslint": "~5.14.0",
+    "eslint": "~6.0.1",
     "tap-spec": "~5.0.0",
     "tape": "~4.11.0"
   },
