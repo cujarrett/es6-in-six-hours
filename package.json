@@ -28,6 +28,6 @@
     "tape": "~4.11.0"
   },
   "dependencies": {
-    "node-fetch": "~2.3.0"
+    "node-fetch": "~2.6.0"
   }
 }
