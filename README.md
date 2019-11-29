@@ -24,7 +24,7 @@ Setup and use requires
 [Git](https://git-scm.com/),
 [Node JS](https://nodejs.org/en/),
 and a text editor such as
-[Brackets](http://brackets.io/).
+[VS Code](https://code.visualstudio.com/).
 
 If you're on a Mac, I'd suggest using
 [Homebrew](https://brew.sh/) for installing the
