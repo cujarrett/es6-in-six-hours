@@ -3,23 +3,23 @@ const tape = require("tape")
 
 const makeStarWarsApiCall = () => {
   return new Promise((resolve, reject) => {
-    const url = "http://swapi.co/api/films/"
+    const url = "https://resume.mattjarrett.dev"
     fetch(url)
       .then((response) => response.json())
       .then((json) => {
-        const firstFilmTitle = json.results[0].title
-        resolve(firstFilmTitle)
+        const { name } = json.basics
+        resolve(name)
       })
       .catch((error) => reject(error))
   })
 }
 
 const runTest = (actual) => {
-  tape("Test Star Wars API", (assert) => {
+  tape("Resume API Test", (assert) => {
     assert.plan(1)
-    const expected = "A New Hope"
+    const expected = "Matt Jarrett"
 
-    assert.equal(actual, expected, "Expect the Star Wars API to be working")
+    assert.equal(actual, expected, "Expect the resume API to be working")
     assert.end()
   })
 }
