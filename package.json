@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint-and-fix": "eslint . --fix",
-    "test": "node test/index.js | tap-spec",
+    "test": "ava test/index.js",
     "ci": "npm run lint && npm run test"
   },
   "repository": {
@@ -23,9 +23,8 @@
   },
   "homepage": "https://github.com/cujarrett/es6-in-six-hours#readme",
   "devDependencies": {
-    "eslint": "~7.5.0",
-    "tap-spec": "~5.0.0",
-    "tape": "~5.0.1"
+    "ava": "~3.15.0",
+    "eslint": "~7.31.0"
   },
   "dependencies": {
     "node-fetch": "~2.6.1"
